@@ -10,6 +10,7 @@
 An innovative web application developed using the Django framework in conjunction with JQuery, designed to facilitate seamless user interaction with comprehensive travel information - which was pre-scrapped from ctrip.com and are stored in the local postgres database. This platform empowers users to efficiently navigate and explore travel-related data, engage in commentary, establish interconnected communities, and notably, plan and curate individualized travel itineraries.
 
 The web page provides several key functions which includes but not limited to :
+
 **1. User authentication and registration**
 ![regi](project_imgs/regi.png)
 ![login](project_imgs/login.png)
