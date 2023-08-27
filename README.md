@@ -13,15 +13,15 @@ The web page provides several key functions which includes but not limited to :
 1. User authentication and registration
 ![regi](project_imgs/regi.png)
 ![login](project_imgs/login.png)
-3. Browse travel information ( Data scrapped from the chinese version of trip.com --> ctrip.com )
+2. Browse travel information ( Data scrapped from the chinese version of trip.com --> ctrip.com )
 ![cities](project_imgs/cities.png)
-4. Establish connection between users 
+3. Establish connection between users 
 ![connection](project_imgs/connection.png)
-5. View and make comments on attractions or topics
+4. View and make comments on attractions or topics
 ![comments](project_imgs/comments.png)
-6. Mark attractions/restaurants/shops 
+5. Mark attractions/restaurants/shops 
 ![mark](project_imgs/mark.png)
-7. Customize personal travel plan with the pre-marked collections
+6. Customize personal travel plan with the pre-marked collections
 ![journal](project_imgs/journal.png)
 ## Installation
 Follow the installation step and set up the project.
