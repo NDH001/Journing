@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+- [Installation](#Installation)
 - [Documentations](#Documentations)
 - [Disclaimer](#Disclaimer)
  
