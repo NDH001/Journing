@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 *vidoes
-/mysite/mysite
+# /mysite/mysite
 /mysite/static
