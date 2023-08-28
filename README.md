@@ -32,7 +32,7 @@ The web page provides several key functions which includes but not limited to :
 ![journal](project_imgs/journal.png)
 
 #### Responsive mobile design 
-Although the project was built with desktop application as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
+Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
 Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling on all mobile devices.
 <img src='project_imgs/m_cities.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_collection.jpeg' style='width:22%;display:inline;'>
