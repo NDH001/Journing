@@ -61,16 +61,24 @@ The objective of this segment is to furnish comprehensive elucidation pertaining
 
 **3. Database schemas :** The database consist of  4 schemas , each segement responsible for storing related data and contents. Click [here](project_imgs/database.pdf) for the original pdf.
 
-**4. Prototye:** This subsection contains some of the initial design and ideas for the website. 
+**4. Prototye:** This subsection contains some of the initial design and ideas for the website. Click [here](project_imgs/) to view the original images.
 
-<img src='project_imgs/1.png' style='width:100%;display:inline;'>
-<img src='project_imgs/2.png' style='width:100%;display:inline;'>
-<img src='project_imgs/3.png' style='width:100%;display:inline;'>
-<img src='project_imgs/4.png' style='width:100%;display:inline;'>
-<img src='project_imgs/5.png' style='width:100%;display:inline;'>
-<img src='project_imgs/6.png' style='width:100%;display:inline;'>
-<img src='project_imgs/7.png' style='width:100%;display:inline;'>
-<img src='project_imgs/8.png' style='width:100%;display:inline;'>
-<img src='project_imgs/9.png' style='width:100%;display:inline;'>
+<img src='project_imgs/1.png' style='width:25%;display:inline;'>
+<img src='project_imgs/2.png' style='width:25%;display:inline;'>
+<img src='project_imgs/3.png' style='width:25%;display:inline;'>
+<img src='project_imgs/4.png' style='width:25%;display:inline;'>
+<img src='project_imgs/5.png' style='width:25%;display:inline;'>
+<img src='project_imgs/6.png' style='width:25%;display:inline;'>
+<img src='project_imgs/7.png' style='width:25%;display:inline;'>
+<img src='project_imgs/8.png' style='width:25%;display:inline;'>
+<img src='project_imgs/9.png' style='width:25%;display:inline;'>
+
+## Disclaimer
+
+This project is strictly non-profit and is solely intended for personal use. All data presented or utilized in this project has been obtained from ctrip.com through legal web scraping methods. The intention behind this project is to showcase technical skills and provide insights derived from publicly available data. No commercial intent or financial gain is associated with this project.
+
+Please note that this project is not affiliated with or endorsed by ctrip.com in any way. The data used is publicly accessible information that has been collected through lawful means. If you are the owner or representative of ctrip.com and have concerns about the usage of this data, please feel free to me at zhi_jun23@hotmail.com, and I will be glad to address any inquiries. 
+
+Thank you for understanding the purpose and nature of this project.
 
 
