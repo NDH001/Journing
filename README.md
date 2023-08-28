@@ -1,3 +1,4 @@
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ndh001/Journing/main)
 # Journing - Django and JQuery based web application
 ![index](project_imgs/index.png)
 
