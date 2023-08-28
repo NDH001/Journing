@@ -60,8 +60,10 @@ The objective of this segment is to furnish comprehensive elucidation pertaining
 **2. Data Scrapping :** The data available on the website is pre-scrapped from ctrip.com, this [project](https://github.com/NDH001/travelWeb_scrapper) has detailed source code and steps on how to scrap for data used in this project.
 
 **3. Database schemas :** The database consist of  4 schemas , each segement responsible for storing related data and contents. Click [here](project_imgs/database.pdf) for the original pdf.
+![database](project_imgs/database.png)
 
 **4. Prototye:** This subsection contains some of the initial design and ideas for the website. Click [here](project_imgs/) to view the original images.
+
 <br>
 <img src='project_imgs/1.png' style='width:30%;display:inline;'>
 <img src='project_imgs/2.png' style='width:30%;display:inline;'>
