@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+- [Installation](#Installation)
 - [Documentations](#Documentations)
 - [Disclaimer](#Disclaimer)
  
@@ -31,12 +32,12 @@ The web page provides several key functions which includes but not limited to :
 ![journal](project_imgs/journal.png)
 
 #### Responsive mobile design 
-Although the project was built with desktop application as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
+Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
 Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling on all mobile devices.
-<img src='project_imgs/m_cities.jpeg' style='width:23%;display:inline;'>
-<img src='project_imgs/m_collection.jpeg' style='width:23%;display:inline;'>
-<img src='project_imgs/m_detail.jpeg' style='width:23%;display:inline;'>
-<img src='project_imgs/m_journal.jpeg' style='width:23%;display:inline;'>
+<img src='project_imgs/m_cities.jpeg' style='width:22%;display:inline;'>
+<img src='project_imgs/m_collection.jpeg' style='width:22%;display:inline;'>
+<img src='project_imgs/m_detail.jpeg' style='width:22%;display:inline;'>
+<img src='project_imgs/m_journal.jpeg' style='width:22%;display:inline;'>
 
 ## Installation
 Follow the installation step and set up the project.
@@ -48,4 +49,10 @@ Follow the installation step and set up the project.
 `python manage.py migrate`
 4. **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql`
 5. **Run the Development Server:** Launch the development server using: `python manage.py runserver`
+
+## Documentations
+The objective of this segment is to furnish comprehensive elucidation pertaining to the project in question. The documentation encompassing elements such as the product backlog, database schemas, prototyping documents, and the Gantt chart, is enumerated herewith.
+
+**1. Product backlog :** The project is founded upon an Agile methodology coupled with the Scrum framework. Each week is designated as a discrete sprint, wherein the activities encompass the stages of application development, thorough review, and rigorous testing. The project encompasses a timeline extending over a duration of three months, commencing with data scraping and subsequently progressing to the substantive phases of application development.
+
 
