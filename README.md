@@ -53,6 +53,30 @@ Follow the installation step and set up the project.
 ## Documentations
 The objective of this segment is to furnish comprehensive elucidation pertaining to the project in question. The documentation encompassing elements such as the product backlog, database schemas, prototyping documents, and the Gantt chart, is enumerated herewith.
 
-**1. Product backlog :** The project is founded upon an Agile methodology coupled with the Scrum framework. Each week is designated as a discrete sprint, wherein the activities encompass the stages of application development, thorough review, and rigorous testing. The project encompasses a timeline extending over a duration of three months, commencing with data scraping and subsequently progressing to the substantive phases of application development.
+**1. Product backlog & Gantt Chart :** The project is founded upon an Agile methodology coupled with the Scrum framework. Each week is designated as a discrete sprint, wherein the activities encompass the stages of application development, thorough review, and rigorous testing. The project encompasses a timeline extending over a duration of three months, commencing with data scraping and subsequently progressing to the substantive phases of application development.
+![Backlog](project_imgs/product.png)
+![gantt](project_imgs/gantt.png)
+
+**2. Data Scrapping :** The data available on the website is pre-scrapped from ctrip.com, this [project](https://github.com/NDH001/travelWeb_scrapper) has detailed source code and steps on how to scrap for data used in this project.
+
+**3. Database schemas :** The database consist of  4 schemas , each segement responsible for storing related data and contents. Click [here](project_imgs/database.pdf) for the original pdf.
+
+**4. Prototye:** This subsection contains some of the initial design and ideas for the website. Click [here](project_imgs/) to view the original images.
+<br>
+<img src='project_imgs/1.png' style='width:30%;display:inline;'>
+<img src='project_imgs/2.png' style='width:30%;display:inline;'>
+<img src='project_imgs/3.png' style='width:30%;display:inline;'>
+<img src='project_imgs/4.png' style='width:30%;display:inline;'>
+<img src='project_imgs/5.png' style='width:30%;display:inline;'>
+<img src='project_imgs/6.png' style='width:30%;display:inline;'>
+<img src='project_imgs/7.png' style='width:30%;display:inline;'>
+<img src='project_imgs/8.png' style='width:30%;display:inline;'>
+<img src='project_imgs/9.png' style='width:30%;display:inline;'>
+
+## Disclaimer
+
+This project is strictly non-profit and is solely intended for personal use. All data presented or utilized in this project has been obtained from ctrip.com through legal web scraping methods. The intention behind this project is to showcase technical skills and provide insights derived from publicly available data. No commercial intent or financial gain is associated with this project.
+
+Please note that this project is not affiliated with or endorsed by ctrip.com in any way. The data used is publicly accessible information that has been collected through lawful means. If you are the owner or representative of ctrip.com and have concerns about the usage of this data, please feel free to me at zhi_jun23@hotmail.com, and I will be glad to address any inquiries. 
 
 
