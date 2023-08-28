@@ -34,10 +34,10 @@ The web page provides several key functions which includes but not limited to :
 #### Responsive mobile design 
 Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
 Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling on all mobile devices.
-<img src='project_imgs/m_cities.jpeg' style='width:22%;display:inline;'>
-<img src='project_imgs/m_collection.jpeg' style='width:22%;display:inline;'>
-<img src='project_imgs/m_detail.jpeg' style='width:22%;display:inline;'>
-<img src='project_imgs/m_journal.jpeg' style='width:22%;display:inline;'>
+<img src='project_imgs/m_cities.jpeg' style='width:20%;display:inline;'>
+<img src='project_imgs/m_collection.jpeg' style='width:20%;display:inline;'>
+<img src='project_imgs/m_detail.jpeg' style='width:20%;display:inline;'>
+<img src='project_imgs/m_journal.jpeg' style='width:20%;display:inline;'>
 
 ## Installation
 Follow the installation step and set up the project.
@@ -63,7 +63,6 @@ The objective of this segment is to furnish comprehensive elucidation pertaining
 ![database](project_imgs/database.png)
 
 **4. Prototye:** This subsection contains some of the initial design and ideas for the website. Click [here](project_imgs/) to view the original images.
-
 <br>
 <img src='project_imgs/1.png' style='width:30%;display:inline;'>
 <img src='project_imgs/2.png' style='width:30%;display:inline;'>
