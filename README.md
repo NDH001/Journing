@@ -5,6 +5,7 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+- [API](#API)
 - [Installation](#Installation)
 - [Documentations](#Documentations)
 - [Disclaimer](#Disclaimer)
@@ -33,12 +34,6 @@ The web page provides several key functions which includes but not limited to :
 **6. Customize personal travel plan with the pre-marked collections**
 ![journal](project_imgs/journal.png)
 
-### API
-The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
-To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
-<img src="project_imgs/web_api.png" style='width:50%'>
-<img src="project_imgs/remote_api.png" style='width:50%'> 
-
 #### Responsive mobile design 
 Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
 Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling on all mobile devices.
@@ -47,6 +42,12 @@ Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling 
 <img src='project_imgs/m_collection.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_detail.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_journal.jpeg' style='width:22%;display:inline;'>
+
+## API
+The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
+To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
+<img src="project_imgs/web_api.png" style='width:40%'>
+<img src="project_imgs/remote_api.png" style='width:40%'> 
 
 ## Installation
 Follow the installation step and set up the project.
