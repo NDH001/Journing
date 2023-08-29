@@ -37,7 +37,7 @@ The web page provides several key functions which includes but not limited to :
 The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
 To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
 <img src="project_imgs/web_api.png" style='width:50%'>
-<img src="project_imgs/remote_api.png" style='width:50%'>
+<img src="project_imgs/remote_api.png" style='width:50%'> 
 
 #### Responsive mobile design 
 Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
