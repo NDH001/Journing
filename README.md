@@ -45,8 +45,11 @@ Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling 
 
 ## RESTFUL_API
 The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
+
 To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
+
 CRUD operations is also supported to manipulate comments, attach either '5134f4b0-f6d6-4cb0-9328-ad6f896bf086' or '3b7746d5-6e56-4f84-952a-ecf914b3487b' on the HTTP request header for authentication purpose and call CRUD on `https://journing.co/api/comments` to perform desired actions.
+<br>
 <img src="project_imgs/web_api.png" style='width:40%'>
 <img src="project_imgs/remote_api.png" style='width:40%'> 
 
