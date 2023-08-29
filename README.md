@@ -5,6 +5,7 @@
 
 ## Table of Contents
 - [Overview](#Overview)
+- [RESTFUL API](#RESTFUL_API)
 - [Installation](#Installation)
 - [Documentations](#Documentations)
 - [Disclaimer](#Disclaimer)
@@ -42,6 +43,16 @@ Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling 
 <img src='project_imgs/m_detail.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_journal.jpeg' style='width:22%;display:inline;'>
 
+## RESTFUL_API
+The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
+
+To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
+
+CRUD operations is also supported to manipulate comments, attach either '5134f4b0-f6d6-4cb0-9328-ad6f896bf086' or '3b7746d5-6e56-4f84-952a-ecf914b3487b' on the HTTP request header for authentication purpose and call CRUD on `https://journing.co/api/comments` to perform desired actions.
+<br>
+<img src="project_imgs/web_api.png" style='width:40%'>
+<img src="project_imgs/remote_api.png" style='width:40%'> 
+
 ## Installation
 Follow the installation step and set up the project.
   
@@ -50,7 +61,7 @@ Follow the installation step and set up the project.
 2.  **Install Dependencies:** Navigate to the project directory and install the required dependencies by running: `pip install -r requirements.txt`
 3. **Database Migration:** Apply the necessary database migrations with the following command:
 `python manage.py migrate`
-4. **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql`
+4. **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql` ( the csv files are not provided here , please contact me at zhi_jun23@hotmail.com for the csv files)
 5. **Run the Development Server:** Launch the development server using: `python manage.py runserver`
 
 ## Documentations
