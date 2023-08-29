@@ -43,7 +43,7 @@ Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling 
 <img src='project_imgs/m_detail.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_journal.jpeg' style='width:22%;display:inline;'>
 
-## RESTFUL API
+## RESTFUL_API
 The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
 To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
 <img src="project_imgs/web_api.png" style='width:40%'>
