@@ -33,6 +33,12 @@ The web page provides several key functions which includes but not limited to :
 **6. Customize personal travel plan with the pre-marked collections**
 ![journal](project_imgs/journal.png)
 
+### API
+The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
+To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
+<img src="project_imgs/web_api.png" style='width:50%'>
+<img src="project_imgs/remote_api.png" style='width:50%'>
+
 #### Responsive mobile design 
 Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
 Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling on all mobile devices.
@@ -50,7 +56,7 @@ Follow the installation step and set up the project.
 2.  **Install Dependencies:** Navigate to the project directory and install the required dependencies by running: `pip install -r requirements.txt`
 3. **Database Migration:** Apply the necessary database migrations with the following command:
 `python manage.py migrate`
-4. **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql`
+4. **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql` ( the csv files are not provided here , please contact me at zhi_jun23@hotmail.com for the csv files)
 5. **Run the Development Server:** Launch the development server using: `python manage.py runserver`
 
 ## Documentations
