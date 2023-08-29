@@ -1,19 +1,22 @@
 # Journing - Django and JQuery based web application
+
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ndh001/Journing/main)
 
 ![index](project_imgs/index.png)
 
 ## Table of Contents
+
 - [Overview](#Overview)
 - [RESTFUL API](#RESTFUL_API)
 - [Installation](#Installation)
 - [Documentations](#Documentations)
 - [Disclaimer](#Disclaimer)
- 
+
 ## Overview
+
 An innovative web application developed using the Django framework in conjunction with JQuery, designed to facilitate seamless user interaction with comprehensive travel information - which was pre-scrapped from ctrip.com and are stored in the local postgres database. This platform empowers users to efficiently navigate and explore travel-related data, engage in commentary, establish interconnected communities, and notably, plan and curate individualized travel itineraries.
 
-The web page provides several key functions which includes but not limited to :
+The webpage encompasses a range of essential functionalities, including but not limited to:
 
 **1. User authentication and registration**
 ![regi](project_imgs/regi.png)
@@ -28,15 +31,15 @@ The web page provides several key functions which includes but not limited to :
 **4. View and make comments on attractions or topics**
 ![comments](project_imgs/comments.png)
 
-**5. Mark attractions/restaurants/shops** 
+**5. Mark attractions/restaurants/shops**
 ![mark](project_imgs/mark.png)
 
 **6. Customize personal travel plan with the pre-marked collections**
 ![journal](project_imgs/journal.png)
 
-#### Responsive mobile design 
-Although the project was built with desktop users as the main audience, however, most of the features can also be access through mobile phones with proper responsive design. 
-Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling on all mobile devices.
+#### Responsive mobile design
+
+While the project was primarily tailored for desktop users, it's noteworthy that a significant portion of its features is also accessible through mobile phones, thanks to the implementation of a responsive design. It's important to mention that rigorous testing has been conducted on devices such as the iPhone XR and Oppo R17. Nevertheless, it's essential to acknowledge that this testing does **not** ensure flawless styling across the entire spectrum of mobile devices.
 <br>
 <img src='project_imgs/m_cities.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_collection.jpeg' style='width:22%;display:inline;'>
@@ -44,36 +47,39 @@ Tested with IPhone Xr and Oppo R17 , this does **not** guarantee proper styling 
 <img src='project_imgs/m_journal.jpeg' style='width:22%;display:inline;'>
 
 ## RESTFUL_API
-The website also supports restful API calls from external sources and full CRUD support is available for certain functionalities.
 
-To GET data such as attracts,foods and shops, make a GET request to `https://journing.co/api/<?>` with <?> being either sights,foods or shops.
+The website also facilitates the integration of RESTful API calls from external sources, while providing comprehensive CRUD (Create, Read, Update, Delete) capabilities for specific functionalities.
 
-CRUD operations is also supported to manipulate comments, attach either '5134f4b0-f6d6-4cb0-9328-ad6f896bf086' or '3b7746d5-6e56-4f84-952a-ecf914b3487b' on the HTTP request header for authentication purpose and call CRUD on `https://journing.co/api/comments` to perform desired actions.
+To retrieve data such as attractions, foods, and shops, initiate a GET request to the following endpoint: https://journing.co/api/<category>, where <category> can be replaced with either 'sights', 'foods', or 'shops'.
+
+For CRUD operations, the platform supports the manipulation of comments. To authenticate, include either '5134f4b0-f6d6-4cb0-9328-ad6f896bf086' or '3b7746d5-6e56-4f84-952a-ecf914b3487b' in the HTTP request header. Subsequently, utilize the CRUD capabilities by interacting with the endpoint: https://journing.co/api/comments to execute the desired actions.
 <br>
 <img src="project_imgs/web_api.png" style='width:40%'>
-<img src="project_imgs/remote_api.png" style='width:40%'> 
+<img src="project_imgs/remote_api.png" style='width:40%'>
 
 ## Installation
+
 Follow the installation step and set up the project.
-  
-1.  **Clone the Repository:** Begin by cloning this project to your local repository using : 
-`git clone https://github.com/NDH001/Journing.git`
+
+1.  **Clone the Repository:** Begin by cloning this project to your local repository using :
+    `git clone https://github.com/NDH001/Journing.git`
 2.  **Install Dependencies:** Navigate to the project directory and install the required dependencies by running: `pip install -r requirements.txt`
-3. **Database Migration:** Apply the necessary database migrations with the following command:
-`python manage.py migrate`
-4. **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql` ( the csv files are not provided here , please contact me at zhi_jun23@hotmail.com for the csv files)
-5. **Run the Development Server:** Launch the development server using: `python manage.py runserver`
+3.  **Database Migration:** Apply the necessary database migrations with the following command:
+    `python manage.py migrate`
+4.  **Import Data:** Import the pre-scrapped travel data to the postgres database by running : `psql your_database_name < migrates.sql` ( the csv files are not provided here , please contact me at zhi_jun23@hotmail.com for the csv files)
+5.  **Run the Development Server:** Launch the development server using: `python manage.py runserver`
 
 ## Documentations
+
 The objective of this segment is to furnish comprehensive elucidation pertaining to the project in question. The documentation encompassing elements such as the product backlog, database schemas, prototyping documents, and the Gantt chart, is enumerated herewith.
 
 **1. Product backlog & Gantt Chart :** The project is founded upon an Agile methodology coupled with the Scrum framework. Each week is designated as a discrete sprint, wherein the activities encompass the stages of application development, thorough review, and rigorous testing. The project encompasses a timeline extending over a duration of three months, commencing with data scraping and subsequently progressing to the substantive phases of application development.
 ![Backlog](project_imgs/product.png)
 ![gantt](project_imgs/gantt.png)
 
-**2. Data Scrapping :** The data available on the website is pre-scrapped from ctrip.com, this [project](https://github.com/NDH001/travelWeb_scrapper) has detailed source code and steps on how to scrap for data used in this project.
+**2. Data Scrapping :** The data presented on the website has been sourced through a pre-scraping process from ctrip.com. For those interested in delving into the details of this data acquisition, the corresponding [project](https://github.com/NDH001/travelWeb_scrapper) offers comprehensive source code and step-by-step instructions on how to effectively gather the data utilized within this endeavor.
 
-**3. Database schemas :** The database consist of  4 schemas , each segement responsible for storing related data and contents. Click [here](project_imgs/database.pdf) for the original pdf.
+**3. Database schemas :** The database encompasses four distinct schemas, with each segment dedicated to the storage of pertinent data and content that fall within specific categories. To view the original PDF illustrating this structure, kindly access it by clicking here.
 ![database](project_imgs/database.png)
 
 **4. Prototye:** This subsection contains some of the initial design and ideas for the website. Click [here](project_imgs/) to view the original images.
@@ -92,6 +98,4 @@ The objective of this segment is to furnish comprehensive elucidation pertaining
 
 This project is strictly non-profit and is solely intended for personal use. All data presented or utilized in this project has been obtained from ctrip.com through legal web scraping methods. The intention behind this project is to showcase technical skills and provide insights derived from publicly available data. No commercial intent or financial gain is associated with this project.
 
-Please note that this project is not affiliated with or endorsed by ctrip.com in any way. The data used is publicly accessible information that has been collected through lawful means. If you are the owner or representative of ctrip.com and have concerns about the usage of this data, please feel free to me at zhi_jun23@hotmail.com, and I will be glad to address any inquiries. 
-
-
+Please note that this project is not affiliated with or endorsed by ctrip.com in any way. The data used is publicly accessible information that has been collected through lawful means. If you are the owner or representative of ctrip.com and have concerns about the usage of this data, please feel free to me at zhi_jun23@hotmail.com, and I will be glad to address any inquiries.
