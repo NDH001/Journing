@@ -146,7 +146,7 @@ USE_TZ = False
 
 STATIC_URL = os.path.join(BASE_DIR, "static/")
 # STATIC_URL = "static/"
-# STATICFILES_DIRS = ["/home/jun/Desktop/database_files/"]
+# STATICFILES_DIRS = ["/home/jun/database_files/"]
 
 STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
