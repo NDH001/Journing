@@ -41,7 +41,7 @@ The webpage encompasses a range of essential functionalities, including but not 
 
 #### Responsive mobile design
 
-While the project was primarily tailored for desktop users, it's noteworthy that a significant portion of its features is also accessible through mobile phones, thanks to the implementation of a responsive design. It's important to mention that rigorous testing has been conducted on devices such as the iPhone XR and Oppo R17. Nevertheless, it's essential to acknowledge that this testing does **not** ensure flawless styling across the entire spectrum of mobile devices.
+While the project was primarily tailored for desktop users(Google Chrome), it's noteworthy that a significant portion of its features is also accessible through mobile phones, thanks to the implementation of a responsive design. It's important to mention that rigorous testing has been conducted on devices such as the iPhone XR and Oppo R17. Nevertheless, it's essential to acknowledge that this testing does **not** ensure flawless styling across the entire spectrum of mobile devices.
 <br>
 <img src='project_imgs/m_cities.jpeg' style='width:22%;display:inline;'>
 <img src='project_imgs/m_collection.jpeg' style='width:22%;display:inline;'>
