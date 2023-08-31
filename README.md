@@ -52,7 +52,7 @@ While the project was primarily tailored for desktop users, it's noteworthy that
 
 The website also facilitates the integration of RESTful API calls from external sources, while providing comprehensive CRUD (Create, Read, Update, Delete) capabilities for specific functionalities.
 
-To retrieve data such as attractions, foods, and shops, initiate a GET request to the following endpoint: https://journing.co/api/<category>, where <category> can be replaced with either 'sights', 'foods', or 'shops'.
+To retrieve data such as attractions, foods, and shops, initiate a GET request to the following endpoint: https://journing.co/api/[category], where [category] can be replaced with either 'sights', 'foods', or 'shops'.
 
 For CRUD operations, the platform supports the manipulation of comments. To authenticate, include either '5134f4b0-f6d6-4cb0-9328-ad6f896bf086' or '3b7746d5-6e56-4f84-952a-ecf914b3487b' in the HTTP request header. Subsequently, utilize the CRUD capabilities by interacting with the endpoint: https://journing.co/api/comments to execute the desired actions.
 <br>
